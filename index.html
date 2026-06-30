@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Only Bikers | Desconexión Rural y Cicloturismo en Carlos Keen</title>
+    
+    <!-- Meta tags SEO -->
+    <meta name="description" content="Cabañas Only Bikers en Carlos Keen, Luján. El refugio premium exclusivo para ciclistas. Concepto NPKW (Sin mascotas, sin niños, sin WiFi). Conexión natural, desayuno de campo y desconexión absoluta.">
+    <meta name="keywords" content="cabañas carlos keen, lujan, cicloturismo, escape rural, hotel de campo, cabañas sin wifi, gravel argentina, ciclismo lujan">
+    <meta property="og:title" content="Cabañas Only Bikers | Desconexión Rural y Cicloturismo en Carlos Keen">
+    <meta property="og:description" content="Refugio premium exclusivo para ciclistas de alto rendimiento y aficionados en Carlos Keen. Concepto NPKW (No Pets, No Kids, No WiFi) para una desconexión digital absoluta.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero_bg.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="main-header" id="mainHeader">
+        <div class="container header-container">
+            <a href="#" class="logo" id="headerLogo">
+                <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M12 3a9 9 0 0 0-9 9"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M12 3v18M3 12h18"></path>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title">ONLY BIKERS</span>
+                    <span class="logo-subtitle">CARLOS KEEN</span>
+                </div>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#concepto" class="nav-link">NPKW</a>
+                <a href="#cabanas" class="nav-link">Las Cabañas</a>
+                <a href="#experiencia" class="nav-link">Experiencia</a>
+                <a href="#ubicacion" class="nav-link">Cómo Llegar</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#cotizador" class="btn btn-primary" id="btnNavReservation">Reservar / Consultar</a>
+                <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-background-wrapper">
+            <div class="hero-overlay"></div>
+            <!-- El usuario colocará su foto real hero_bg.jpg aquí. Si no está, se mostrará un gradiente estético -->
+            <img src="assets/hero_bg.jpg" alt="Entorno rústico y natural en Carlos Keen" class="hero-bg-img" onerror="this.style.display='none';">
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-premium">Escape de Campo Premium</div>
+                <h1 class="hero-title">CABAÑAS<br><span class="text-accent">ONLY BIKERS</span></h1>
+                <p class="hero-lead">El refugio exclusivo para ciclistas en Carlos Keen. Diseñado para quienes buscan desconexión digital total, naturaleza virgen y un descanso saludable y reconfortante.</p>
+                <div class="hero-buttons">
+                    <a href="#cotizador" class="btn btn-lg btn-primary">Cotizar Estadía</a>
+                    <a href="#concepto" class="btn btn-lg btn-outline">Ver Manifiesto NPKW</a>
+                </div>
+            </div>
+            
+            <!-- Quick Features Bar -->
+            <div class="quick-features-bar">
+                <div class="feature-item">
+                    <span class="feature-val">2</span>
+                    <span class="feature-lbl">Cabañas Exclusivas</span>
+                </div>
+                <div class="feature-divider"></div>
+                <div class="feature-item">
+                    <span class="feature-val">NPKW</span>
+                    <span class="feature-lbl">Filosofía de Calma</span>
+                </div>
+                <div class="feature-divider"></div>
+                <div class="feature-item">
+                    <span class="feature-val">8 AM</span>
+                    <span class="feature-lbl">Early Check-in</span>
+                </div>
+                <div class="feature-divider"></div>
+                <div class="feature-item">
+                    <span class="feature-val">1.5 hs</span>
+                    <span class="feature-lbl">Desde Buenos Aires</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concept Section (NPKW Manifiesto) -->
+    <section class="concept-section" id="concepto">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Filosofía del Refugio</span>
+                <h2 class="section-title">El Manifiesto <span class="text-accent">NPKW</span></h2>
+                <p class="section-desc">Diseñamos un entorno libre de estímulos urbanos cotidianos para garantizar un descanso profundo y reparador del cuerpo y la mente.</p>
+            </div>
+            
+            <div class="npkw-grid">
+                <!-- No Pets -->
+                <div class="npkw-card">
+                    <div class="npkw-icon-box">
+                        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                        <span class="npkw-letter">P</span>
+                    </div>
+                    <h3 class="npkw-title">No Pets</h3>
+                    <p class="npkw-text">Garantizamos el silencio absoluto y el respeto por el hábitat de las aves y la fauna rural autóctona que rodea las cabañas.</p>
+                </div>
+                
+                <!-- No Kids -->
+                <div class="npkw-card">
+                    <div class="npkw-icon-box">
+                        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 11H11V7h2zm0 4H11v-2h2z"/>
+                        </svg>
+                        <span class="npkw-letter">K</span>
+                    </div>
+                    <h3 class="npkw-title">No Kids</h3>
+                    <p class="npkw-text">Un entorno de calma contemplativa pensado exclusivamente para adultos. Ideal para la concentración, lectura y meditación post-entrenamiento.</p>
+                </div>
+                
+                <!-- No WiFi -->
+                <div class="npkw-card">
+                    <div class="npkw-icon-box">
+                        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0 1 19 12.5M5 12.5a10.94 10.94 0 0 1 5.83-2.84M8.53 16.03a6 6 0 0 1 6.94 0M12 20h.01"/>
+                        </svg>
+                        <span class="npkw-letter">W</span>
+                    </div>
+                    <h3 class="npkw-title">No WiFi</h3>
+                    <p class="npkw-text">Desconexión digital real. Apagá las notificaciones e intercambiá la pantalla por el pedaleo en el camino, el fogón de asado y charlas genuinas.</p>
+                </div>
+            </div>
+            
+            <div class="manifesto-callout">
+                <p><strong>Un oasis saludable:</strong> Fomentamos el cicloturismo, la alimentación consciente con desayunos caseros y la reconexión con los ritmos naturales del sol.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cabins Section -->
+    <section class="cabins-section" id="cabanas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Alojamiento Premium</span>
+                <h2 class="section-title">Nuestras Cabañas</h2>
+                <p class="section-desc">Contamos con dos unidades idénticas totalmente integradas con el entorno, optimizadas para grupos pequeños de deportistas o parejas.</p>
+            </div>
+            
+            <div class="cabins-grid">
+                <!-- Cabaña Card -->
+                <div class="cabin-card">
+                    <div class="cabin-gallery">
+                        <div class="image-placeholder" data-image="assets/cabin_exterior.png">
+                            <div class="placeholder-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                            <span class="placeholder-text">Foto de la Cabaña (Exterior)</span>
+                            <span class="placeholder-action">Click para subir / ver referencia</span>
+                        </div>
+                        <img src="assets/cabin_exterior.png" alt="Exterior de las cabañas Only Bikers" class="cabin-img" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                    </div>
+                    <div class="cabin-details">
+                        <div class="cabin-header">
+                            <h3 class="cabin-name">Cabaña Aromo</h3>
+                            <span class="cabin-capacity">Hasta 3 Personas</span>
+                        </div>
+                        <p class="cabin-description">Acogedor refugio rústico revestido en madera natural, con grandes ventanales que integran el paisaje de campo al interior. Diseñada para un descanso silencioso.</p>
+                        <ul class="cabin-comforts">
+                            <li><span class="bullet">✓</span> Desayuno de campo casero</li>
+                            <li><span class="bullet">✓</span> Fogón individual para asados</li>
+                            <li><span class="bullet">✓</span> Vajilla completa y heladera</li>
+                            <li><span class="bullet">✓</span> Pava eléctrica y tostadora</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cabaña Card 2 -->
+                <div class="cabin-card">
+                    <div class="cabin-gallery">
+                        <div class="image-placeholder" data-image="assets/cabin_interior.png">
+                            <div class="placeholder-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M2 20h20M4 20V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14"/>
+                                    <rect x="9" y="8" width="6" height="12"/>
+                                </svg>
+                            </div>
+                            <span class="placeholder-text">Foto de la Cabaña (Interior)</span>
+                            <span class="placeholder-action">Click para subir / ver referencia</span>
+                        </div>
+                        <img src="assets/cabin_interior.png" alt="Interior acogedor de las cabañas Only Bikers" class="cabin-img" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                    </div>
+                    <div class="cabin-details">
+                        <div class="cabin-header">
+                            <h3 class="cabin-name">Cabaña Ceibo</h3>
+                            <span class="cabin-capacity">Hasta 3 Personas</span>
+                        </div>
+                        <p class="cabin-description">Espacio cálido y luminoso con un deck exterior privado ideal para estirar post-salida y disfrutar de la tranquilidad del atardecer sin ruidos de ciudad.</p>
+                        <ul class="cabin-comforts">
+                            <li><span class="bullet">✓</span> Desayuno de campo casero</li>
+                            <li><span class="bullet">✓</span> Fogón individual para asados</li>
+                            <li><span class="bullet">✓</span> Vajilla completa y heladera</li>
+                            <li><span class="bullet">✓</span> Pava eléctrica y tostadora</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- General Amenities Grid -->
+            <div class="amenities-container">
+                <h3 class="amenities-title text-center">Comodidades del Complejo</h3>
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <div class="amenity-icon">☕</div>
+                        <h4>Desayuno Incluido</h4>
+                        <p>Pan casero, delicias locales y café de campo servido directo en tu cabaña.</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🔥</div>
+                        <h4>Fogón para Asados</h4>
+                        <p>Espacio exterior rústico para cocinar al fuego. Estilo asador de campo.</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🔌</div>
+                        <h4>Pava & Tostadora</h4>
+                        <p>Comodidades eléctricas básicas para recargar energía cómodamente.</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">❄️</div>
+                        <h4>Heladera & Vajilla</h4>
+                        <p>Espacio para guardar bebidas, frutas e hidratación fría para el pedaleo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Riding Carlos Keen -->
+    <section class="experience-section" id="experiencia">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-content">
+                    <span class="section-subtitle">El Destino Ideal</span>
+                    <h2 class="section-title">Pedalear en Carlos Keen</h2>
+                    <p>Carlos Keen es el polo de cicloturismo de Buenos Aires por excelencia. Con sus caminos rurales consolidados y paisajes de llanura infinitos, es ideal para entrenar gravel, mountain bike o realizar salidas recreativas en familia o pelotón.</p>
+                    
+                    <div class="hours-card">
+                        <h4 class="hours-title">⏰ Diseñado para Ciclistas del Fin de Semana</h4>
+                        <div class="hour-row">
+                            <span class="hour-label">Early Check-in:</span>
+                            <span class="hour-time">Sábado 8:00 AM</span>
+                        </div>
+                        <p class="hour-note">Llegás temprano, guardás tus cosas en la cabaña, te ponés la indumentaria y salís a pedalear la mañana entera sin perder el día.</p>
+                        <div class="hour-row">
+                            <span class="hour-label">Late Check-out:</span>
+                            <span class="hour-time">Domingo 20:00 PM</span>
+                        </div>
+                        <p class="hour-note">Aprovechás el domingo para rodar hasta el atardecer, volvés para una ducha relajante y regresás a Capital Federal descansado y sin apuro.</p>
+                    </div>
+                </div>
+                
+                <div class="experience-gallery">
+                    <div class="image-placeholder tall" data-image="assets/carlos_keen_estacion.png">
+                        <div class="placeholder-icon">🚲</div>
+                        <span class="placeholder-text">Estación de Tren e Historia de Keen</span>
+                        <span class="placeholder-action">Click para referencia visual</span>
+                    </div>
+                    <img src="assets/carlos_keen_estacion.png" alt="Estación ferroviaria histórica de Carlos Keen" class="experience-img" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                    
+                    <div class="image-placeholder tall" data-image="assets/carlos_keen_caminos.png">
+                        <div class="placeholder-icon">🌾</div>
+                        <span class="placeholder-text">Senderos y Caminos Rurales</span>
+                        <span class="placeholder-action">Click para referencia visual</span>
+                    </div>
+                    <img src="assets/carlos_keen_caminos.png" alt="Caminos de tierra e itinerarios rurales" class="experience-img" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form / Cotizador Section -->
+    <section class="booking-section" id="cotizador">
+        <div class="container container-medium">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Cotizador Online</span>
+                <h2 class="section-title">Consulta Disponibilidad</h2>
+                <p class="section-desc">Calculá el costo estimado y envianos tu consulta directa. Te responderemos al instante por WhatsApp o correo.</p>
+            </div>
+            
+            <div class="booking-box glass-card">
+                <form id="reservationForm" class="reservation-form">
+                    <div class="form-grid">
+                        <!-- Cabaña Selection -->
+                        <div class="form-group col-full">
+                            <label for="cabinSelect">Cabaña a Reservar</label>
+                            <select id="cabinSelect" name="cabin" required>
+                                <option value="Cabaña Aromo">Cabaña Aromo (Hasta 3 Personas)</option>
+                                <option value="Cabaña Ceibo">Cabaña Ceibo (Hasta 3 Personas)</option>
+                                <option value="Completo (Ambas)">Ambas Cabañas (Grupos hasta 6 Personas)</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Check In Date -->
+                        <div class="form-group">
+                            <label for="checkinDate">Fecha de Entrada</label>
+                            <input type="date" id="checkinDate" name="checkin" required>
+                        </div>
+                        
+                        <!-- Check Out Date -->
+                        <div class="form-group">
+                            <label for="checkoutDate">Fecha de Salida</label>
+                            <input type="date" id="checkoutDate" name="checkout" required>
+                        </div>
+                        
+                        <!-- Guests Number -->
+                        <div class="form-group">
+                            <label for="guestsNumber">Huéspedes</label>
+                            <select id="guestsNumber" name="guests" required>
+                                <option value="1">1 Huésped</option>
+                                <option value="2">2 Huéspedes</option>
+                                <option value="3">3 Huéspedes</option>
+                                <option value="4">4 Huéspedes (Requiere ambas cabañas)</option>
+                                <option value="5">5 Huéspedes (Requiere ambas cabañas)</option>
+                                <option value="6">6 Huéspedes (Requiere ambas cabañas)</option>
+                            </select>
+                        </div>
+
+                        <!-- Price Per Night Input (Hidden or read-only indicator) -->
+                        <div class="form-group">
+                            <label>Tarifa por Cabaña / Noche</label>
+                            <div class="tariff-display">$45.000 ARS</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dynamic Live Calculator Summary -->
+                    <div class="price-summary" id="priceSummary">
+                        <div class="summary-line">
+                            <span id="summaryNights">0 noches</span>
+                            <span id="summaryBasePrice">$0 ARS</span>
+                        </div>
+                        <div class="summary-line total-line">
+                            <span>Estimado Total:</span>
+                            <span class="total-price" id="summaryTotal">$0 ARS</span>
+                        </div>
+                        <p class="summary-note">*Las tarifas son de referencia y pueden variar en fines de semana largos o feriados.</p>
+                    </div>
+                    
+                    <hr class="form-divider">
+                    
+                    <div class="form-grid">
+                        <!-- Contact Name -->
+                        <div class="form-group">
+                            <label for="contactName">Nombre Completo</label>
+                            <input type="text" id="contactName" name="name" placeholder="Ej: Marcos Pérez" required>
+                        </div>
+                        
+                        <!-- Contact Phone -->
+                        <div class="form-group">
+                            <label for="contactPhone">Teléfono de Contacto</label>
+                            <input type="tel" id="contactPhone" name="phone" placeholder="Ej: 11 3196 3906" required>
+                        </div>
+                        
+                        <!-- Contact Email -->
+                        <div class="form-group col-full">
+                            <label for="contactEmail">Correo Electrónico (Opcional)</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="Ej: marcos@correo.com">
+                        </div>
+                        
+                        <!-- Extra Message -->
+                        <div class="form-group col-full">
+                            <label for="contactMessage">Mensaje o Pedido Especial</label>
+                            <textarea id="contactMessage" name="message" rows="3" placeholder="Contanos si venís con tu bicicleta, si requerís algún ajuste horario o tenés alguna restricción dietaria para el desayuno."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-actions">
+                        <button type="button" id="btnSubmitWhatsApp" class="btn btn-whatsapp">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                <path d="M12.031 2a9.967 9.967 0 0 0-7.054 2.923 9.972 9.972 0 0 0-2.88 7.378c0 1.942.558 3.824 1.614 5.438l-1.688 6.166 6.305-1.656a9.914 9.914 0 0 0 4.887 1.272H12.1a9.972 9.972 0 0 0 7.073-2.925 9.972 9.972 0 0 0 2.879-7.071c0-2.662-1.037-5.166-2.92-7.05A9.97 9.97 0 0 0 12.031 2zM6.92 6.09a.862.862 0 0 1 .6-.252c.214 0 .428.083.568.225.263.267.893 2.146.972 2.308a.63.63 0 0 1 .03.541c-.083.165-.18.271-.27.382-.098.113-.203.233-.293.33-.09.098-.188.203-.083.383a8.172 8.172 0 0 0 1.488 1.853 7.086 7.086 0 0 0 2.135 1.323c.18.09.286.075.39-.045.105-.12.451-.525.571-.705.12-.18.24-.15.405-.09.165.06 1.052.495 1.233.585.18.09.3.135.345.21.045.075.045.435-.135.945-.18.51-.885.99-1.215 1.02-.33.03-.645.15-2.07-.405-1.74-.675-2.85-2.46-2.94-2.58-.09-.12-.735-.975-.735-1.86s.465-1.32.63-1.485c.165-.165.36-.255.54-.255z"/>
+                            </svg>
+                            Enviar Consulta por WhatsApp
+                        </button>
+                        <button type="submit" id="btnSubmitWeb" class="btn btn-secondary">
+                            Enviar Consulta por la Web
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map & Directions Section -->
+    <section class="location-section" id="ubicacion">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Ubicación</span>
+                <h2 class="section-title">El Camino al Refugio</h2>
+                <p class="section-desc">Nos encontramos en una zona tranquila y rural de Carlos Keen, apartados del ruido y rodeados de verde. Ideal para llegar pedaleando.</p>
+            </div>
+            
+            <div class="location-grid">
+                <!-- How to get card -->
+                <div class="directions-card glass-card">
+                    <h3 class="card-subtitle">Indicaciones de Acceso</h3>
+                    
+                    <div class="direction-step">
+                        <div class="step-num">1</div>
+                        <div>
+                            <h4>Desde Capital Federal en Auto (1.5 hs)</h4>
+                            <p>Tomar Autopista Acceso Oeste hasta Luján, luego desviar por Ruta Nacional 7 hasta el kilómetro 72, doblar a la derecha y seguir el camino pavimentado directo a Carlos Keen.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="direction-step">
+                        <div class="step-num">2</div>
+                        <div>
+                            <h4>Ubicación Física Real (Corregida)</h4>
+                            <p>Las cabañas están en las coordenadas <strong>-34.482839, -59.218787</strong>. Google Maps tiene una dirección desactualizada para la ficha del local comercial, pero este mapa interactivo muestra el pin exacto en el predio rural.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="direction-step">
+                        <div class="step-num">3</div>
+                        <div>
+                            <h4>Acceso en Bicicleta</h4>
+                            <p>Los caminos que conducen al predio son de tierra compacta (típica huella rural bonaerense), perfectamente transitables con cubiertas Gravel (+35c) o MTB.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://www.google.com.ar/maps/search/-34.482839,+-59.218787" target="_blank" class="btn btn-outline col-full text-center" style="display:block; text-decoration:none; margin-top:20px;">
+                        Ver Ubicación Exacta en Google Maps
+                    </a>
+                </div>
+                
+                <!-- Map Embed Wrapper -->
+                <div class="map-wrapper glass-card">
+                    <!-- Embedded iframe pointing directly to the correct coordinates supplied by user -->
+                    <iframe 
+                        id="embeddedMap"
+                        src="https://maps.google.com/maps?q=-34.482839,-59.218787&z=16&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de Cabañas Only Bikers">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>CABAÑAS ONLY BIKERS</h3>
+                <p>Naturaleza, silencio y desconexión digital para ciclistas en Carlos Keen, Argentina.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Contacto</h4>
+                <p>📞 Teléfono: +54 9 11 3196 3906</p>
+                <p>💬 WhatsApp: <a href="https://wa.me/5491131963906" target="_blank">+54 9 11 3196-3906</a></p>
+                <p>📍 Carlos Keen, Luján, Buenos Aires, Argentina</p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cabañas Only Bikers. Todos los derechos reservados.</p>
+                <div class="footer-actions">
+                    <!-- Discretely trigger owner admin view -->
+                    <a href="#admin" id="btnAdminAccess" class="admin-link">Acceso Administración</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Image Reference Verification -->
+    <div class="lightbox" id="imageLightbox">
+        <div class="lightbox-overlay" id="lightboxOverlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <div class="lightbox-body">
+                <h3 id="lightboxTitle">Referencia de Imagen</h3>
+                <p id="lightboxDesc">Esta sección requiere que subas tu foto real.</p>
+                <div class="lightbox-img-container">
+                    <img id="lightboxImg" src="" alt="Referencia">
+                    <div class="lightbox-missing-notice" id="lightboxNotice">
+                        <h4>Falta la Imagen Real</h4>
+                        <p>Para mostrar esta foto en tu web, descarga la imagen de Google Maps, nómbrala exactamente como <strong id="lightboxFileName">nombre.jpg</strong> y guárdala dentro de la carpeta: <br><code>Cabañas mama/assets/</code></p>
+                    </div>
+                </div>
+                <div class="lightbox-instructions">
+                    <h5>¿Cómo configurar las fotos reales?</h5>
+                    <ol>
+                        <li>Descargá la foto real de tu ficha de Google Maps.</li>
+                        <li>Cambiá el nombre del archivo al nombre sugerido arriba.</li>
+                        <li>Pegalo en la carpeta <code>assets</code> del sitio web.</li>
+                        <li>¡Listo! El sitio la cargará automáticamente.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Admin Panel (Query Manager Dashboard) -->
+    <div class="admin-panel" id="adminPanel">
+        <div class="admin-overlay" id="adminOverlay"></div>
+        <div class="admin-content glass-card">
+            <div class="admin-header">
+                <h2>Panel de Administración de Consultas</h2>
+                <button class="admin-close" id="adminClose">&times;</button>
+            </div>
+            
+            <div class="admin-body">
+                <div class="admin-stats">
+                    <div class="stat-card">
+                        <span class="stat-val" id="statTotalQueries">0</span>
+                        <span class="stat-lbl">Consultas Totales</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val" id="statNewQueries">0</span>
+                        <span class="stat-lbl">Nuevas (Sin leer)</span>
+                    </div>
+                </div>
+
+                <div class="queries-table-wrapper">
+                    <table class="queries-table" id="queriesTable">
+                        <thead>
+                            <tr>
+                                <th>Fecha/Hora</th>
+                                <th>Cliente</th>
+                                <th>Contacto</th>
+                                <th>Cabaña</th>
+                                <th>Fechas Est.</th>
+                                <th>Noches</th>
+                                <th>Mensaje</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="queriesTableBody">
+                            <!-- Dynamically loaded through JavaScript from localStorage -->
+                            <tr>
+                                <td colspan="8" class="text-center">Cargando consultas...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript logic -->
+    <script src="app.js"></script>
+</body>
+</html>
